@@ -24,7 +24,7 @@ function App() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <p className="text-gray-400 text-sm">
-                © 2024 Leonardo Poggiani. Built with React, TypeScript, and Tailwind CSS.
+                © 2025 Leonardo Poggiani. Built with React, TypeScript, and Tailwind CSS.
               </p>
               <div className="flex items-center mt-2">
                 <span className="text-gray-500 text-xs mr-2">Hosted on</span>

@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-green-400 mx-auto mb-8" />
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Have a project in mind? Want to discuss cloud architecture over coffee? 
+              Have a project in mind? Want to discuss cloud architecture over a perfectly steeped tea, or perhaps a classic Torinese bicerin? 
               Or just need someone to explain why your Kubernetes pods keep restarting? Let's talk!
             </p>
           </div>

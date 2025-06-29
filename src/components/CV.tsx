@@ -51,18 +51,18 @@ const CV: React.FC = () => {
         period: '05/2023 - Present',
         description: [
           'Led end-to-end migration of high-traffic travel website Imperatore Travel from on-premise multi-VPS setup to scalable AWS cloud-native architecture',
-          'Spearheaded MLOps practices implementation, including deployment of self-hosted LLMs using KServe and Knative',
+          'Spearheaded MLOps practices implementation, including deployment of self-hosted LLMs using KServe and Knative with Envoy AI Gateway',
           'Designed and implemented end-to-end ML training pipelines on GCP and AWS',
-          'Architected multi-cloud infrastructure using AWS, GCP, and Azure with Infrastructure as Code principles',
+          'Architected multi-cloud infrastructure using AWS and managed production systems on Azure with Infrastructure as Code principles',
           'Developed custom Kubernetes operators and established production-grade clusters',
           'Engineered sophisticated CI/CD pipelines using TeamCity with automated testing and security scanning'
         ]
       }
     ],
     skills: [
-      'KServe', 'Knative', 'ML Training Pipelines', 'Kubernetes', 'AWS', 'GCP', 'Azure', 
-      'Terraform', 'OpenTofu', 'TeamCity', 'GitHub Actions', 'ArgoCD', 'Helm',
-      'ELK Stack', 'Prometheus', 'Grafana', 'C# (.NET Core)', 'Python', 'Go', 'TypeScript'
+      'KServe', 'Knative', 'ML Training Pipelines', 'Kubernetes', 'AWS', 'Azure', 
+      'Terraform/OpenTofu', 'TeamCity', 'GitHub Actions', 'ArgoCD', 'Helm',
+      'ELK Stack', 'Prometheus', 'Grafana', 'C# (.NET Core)', 'Python', 'Go (Academic)', 'TypeScript', 'Envoy AI Gateway'
     ],
     education: [
       {
@@ -151,8 +151,21 @@ const CV: React.FC = () => {
                 <div className="mb-6">
                   <h3 className="text-lg font-bold mb-3 text-cyan-600">Areas of Expertise</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    MLOps • Kubernetes • AWS • GCP • Azure • Terraform • CI/CD • .NET • Go • Python • Docker • KServe • Knative • Machine Learning Infrastructure • Cloud Migration • Infrastructure Re-architecture
+                    MLOps • Kubernetes • AWS • Azure Production Systems • Terraform/OpenTofu • CI/CD • .NET • Go (Academic) • Python • Docker • KServe • Knative • Envoy AI Gateway • ML Infrastructure • Cloud Migration
                   </p>
+                </div>
+
+                {/* Quick Stats */}
+                <div className="mb-6">
+                  <h3 className="text-lg font-bold mb-3 text-cyan-600">Quick Stats about Turin</h3>
+                  <ul className="list-disc list-inside text-sm text-gray-700 ml-4">
+                    <li>First capital of unified Italy (1861-1865) and host of the 2006 Winter Olympics</li>
+                    <li>Home to automotive giants: Fiat, Lancia, Alfa Romeo, and Stellantis headquarters</li>
+                    <li>Houses the world's second-largest Egyptian museum after Cairo</li>
+                    <li>"Chocolate Capital of Italy" - birthplace of Nutella, gianduiotto, and bicerin</li>
+                    <li>Tech hub: home to major startups and the UniCredit Innovation Lab</li>
+                    <li>UNESCO World Heritage sites include Residences of the Royal House of Savoy</li>
+                  </ul>
                 </div>
 
                 {/* Experience */}
@@ -177,12 +190,11 @@ const CV: React.FC = () => {
                 <div className="mb-6">
                   <h3 className="text-lg font-bold mb-3 text-cyan-600">Technical Skills</h3>
                   <div className="space-y-2 text-sm text-gray-700">
-                    <div><strong>Cloud & MLOps:</strong> KServe, Knative, ML Training Pipelines (GCP Vertex AI, AWS SageMaker), Model Serving, Distributed Training, LLM Deployment</div>
-                    <div><strong>Kubernetes:</strong> Cluster Management (GKE, EKS, AKS), Custom Operators, Service Mesh (Istio), GitOps (ArgoCD), Helm</div>
-                    <div><strong>Cloud Platforms:</strong> AWS (EKS, ECS, EC2, S3, CloudFront, Route 53, RDS, Aurora, Lambda), GCP (Vertex AI, Cloud Run, GKE), Azure (AKS, Container Apps, Key Vault)</div>
-                    <div><strong>Infrastructure as Code:</strong> Terraform, OpenTofu (Modules, Workspaces, Remote State Management)</div>
-                    <div><strong>CI/CD:</strong> TeamCity, GitHub Actions, ArgoCD, Helm Charts</div>
-                    <div><strong>Development:</strong> C# (.NET Core, Minimal API), Python (Flask, FastAPI), Go, TypeScript, SQL, Temporal Workflows</div>
+                    <div><strong>Cloud & MLOps:</strong> KServe, Knative, ML Training Pipelines (GCP Vertex AI, AWS SageMaker), Model Serving, Envoy AI Gateway</div>
+                    <div><strong>Kubernetes:</strong> Cluster Management (GKE, EKS, AKS), Custom Operators, GitOps (ArgoCD), Helm</div>
+                    <div><strong>Cloud Platforms:</strong> AWS (EKS, ECS, EC2, S3, Lambda), Azure (Managed Production Systems, AKS, Container Apps), GCP</div>
+                    <div><strong>Infrastructure as Code:</strong> Terraform/OpenTofu (Modules, Workspaces, Remote State)</div>
+                    <div><strong>Development:</strong> C# (.NET Core), Python (Flask, FastAPI), Go (Academic), TypeScript, SQL</div>
                   </div>
                 </div>
 

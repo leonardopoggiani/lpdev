@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, ExternalLink, BookOpen, Container, Coffee, Zap, Terminal, Code, Cloud, Server } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, BookOpen, Container, Zap, Terminal, Code, Cloud, Server } from 'lucide-react';
 import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 
 const Links: React.FC = () => {
@@ -90,7 +90,7 @@ const Links: React.FC = () => {
     { label: 'Years in DevOps', value: '2+', description: 'And counting...' },
     { label: 'Cloud Platforms', value: '3', description: 'AWS, GCP, Azure' },
     { label: 'Containers Deployed', value: '1000+', description: 'Still running' },
-    { label: 'Coffee Dependency', value: 'Critical', description: 'Send help' }
+    { label: 'Tea Preference', value: 'Earl Grey', description: 'With biscuits on the side' }
   ];
 
   return (
@@ -171,7 +171,7 @@ const Links: React.FC = () => {
               </div>
               <div className="mt-6 pt-6 border-t border-gray-700 text-center">
                 <p className="text-gray-400 text-sm">
-                  Powered by caffeine and curiosity since 2023
+                  Driven by calm focus (and the spirit of tea) and unyielding curiosity since 2023
                 </p>
               </div>
             </div>

@@ -59,7 +59,7 @@ const About: React.FC = () => {
     },
     {
       title: 'Continuous Learning',
-      description: 'The cloud changes faster than my coffee gets cold. Staying current isn\'t optional, it\'s survival.'
+      description: 'The cloud changes faster than a bicerin is savored. Staying current isn\'t optional, it\'s a necessità.'
     },
     {
       title: 'Pragmatic Solutions',
@@ -79,7 +79,7 @@ const About: React.FC = () => {
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-green-400 mx-auto mb-8" />
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              I'm a DevOps engineer who turns coffee into cloud infrastructure. Currently based in Turin, 
+              I'm a DevOps engineer who brews tea into robust cloud infrastructure. Currently based in Turin, 
               I spend my days making sure applications deploy smoothly and my nights wondering why 
               Kubernetes decided to restart that pod at 2 AM.
             </p>
