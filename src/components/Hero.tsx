@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
             
             <div className="text-gray-400 mb-2">$ cat mission.txt</div>
             <div className="text-gray-300 leading-relaxed">
-              Fueled by perfectly steeped tea, Torinese ingenuity, and relentless curiosity since 2023. Currently making Kubernetes behave in Turin.
+              Fueled by perfectly steeped tea, Umbria ingenuity, and relentless curiosity since 2023. Currently making Kubernetes behave in Turin (but my heart is in Umbria).
             </div>
           </div>
         </div>

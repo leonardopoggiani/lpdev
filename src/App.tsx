@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import About from './components/About';
 import Links from './components/Links';
 import Projects from './components/Projects';
-import CV from './components/CV';
 import Contact from './components/Contact';
+
+const LazyCV = React.lazy(() => import('./components/CV'));
 
 function App() {
   return (
@@ -15,7 +16,13 @@ function App() {
       <About />
       <Links />
       <Projects />
-      <CV />
+      <Suspense fallback={
+        <div className="py-20 bg-gray-900 text-center text-gray-400">
+          Loading CV section...
+        </div>
+      }>
+        <LazyCV />
+      </Suspense>
       <Contact />
       
       {/* Footer */}
