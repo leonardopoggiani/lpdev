@@ -10,7 +10,7 @@ const About: React.FC = () => {
     'Cloud Platforms': [
       { name: 'AWS', experience: 'Production', icon: Cloud, description: 'EKS, ECS, S3, CloudFront, RDS' },
       { name: 'GCP', experience: 'Production', icon: Cloud, description: 'Vertex AI, GKE, Cloud Run' },
-      { name: 'Azure', experience: 'Learning', icon: Cloud, description: 'AKS, Container Apps, Key Vault' }
+      { name: 'Azure', experience: 'Production', icon: Cloud, description: 'AKS, Container Apps, Key Vault' }
     ],
     'Container & Orchestration': [
       { name: 'Kubernetes', experience: 'Expert', icon: Server, description: 'Custom operators, multi-cluster' },
@@ -18,18 +18,17 @@ const About: React.FC = () => {
       { name: 'Helm', experience: 'Production', icon: Settings, description: 'Chart development, GitOps' }
     ],
     'Infrastructure as Code': [
-      { name: 'Terraform', experience: 'Expert', icon: Code, description: 'Modules, workspaces, state mgmt' },
-      { name: 'OpenTofu', experience: 'Production', icon: Code, description: 'Open-source Terraform fork' }
+      { name: 'Terraform/OpenTofu', experience: 'Expert', icon: Code, description: 'Modules, workspaces, state mgmt' },
     ],
     'MLOps & AI': [
       { name: 'KServe', experience: 'Production', icon: Zap, description: 'Model serving, inference' },
       { name: 'Knative', experience: 'Production', icon: Zap, description: 'Serverless containers' },
-      { name: 'LLM Deployment', experience: 'Learning', icon: Shield, description: 'Self-hosted models' }
+      { name: 'LLM Deployment', experience: 'Production', icon: Shield, description: 'Self-hosted models' }
     ],
     'Development': [
       { name: 'C# (.NET)', experience: 'Expert', icon: Code, description: 'Minimal APIs, microservices' },
-      { name: 'Go', experience: 'Production', icon: Code, description: 'K8s operators, CLI tools' },
-      { name: 'Python', experience: 'Production', icon: Code, description: 'Flask, FastAPI, ML pipelines' }
+      { name: 'Python', experience: 'Production', icon: Code, description: 'Flask, FastAPI, ML pipelines' },
+      { name: 'Go', experience: 'Learning', icon: Code, description: 'K8s operators, CLI tools' }
     ],
     'CI/CD & Monitoring': [
       { name: 'TeamCity', experience: 'Expert', icon: GitBranch, description: 'Complex pipelines, automation' },
